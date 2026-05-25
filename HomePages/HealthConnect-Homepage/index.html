@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <title>HealthConnect Homepage</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-1">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">HealthConnect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Issues
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Diet</a></li>
+                            <li><a class="dropdown-item" href="#">Excercise</a></li>
+                            <li><a class="dropdown-item" href="#">Sleep</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button type="button" class="btn btn-primary">Search</button>
+
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner my-1">
+            <div class="carousel-item active">
+                <img src="food.jpg" class="d-block w-100" alt="..." height="500px" width="600px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Good Food</h5>
+                    <p>Eat better feel better.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="excersize.jpg" class="d-block w-100" alt="..." height="500px" width="600px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Excercise</h5>
+                    <p>Body is temple and excercise is prayer.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="one.jpg" class="d-block w-100" alt="..." height="500px" width="600px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Good Sleep</h5>
+                    <p>Sleep is golden chain that ties health and our bodies together.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="row bg-warning " style="margin-left: 2px; margin-right:3px;">
+        <div class="col-lg-4">
+            <img src="food.jpg" height="200px" width="200px" class="rounded-circle">
+            <h2 class="fw-normal">Balanced Diet:</h2>
+            <p>Consume a variety of foods, including fruits, vegetables, whole grains, lean
+                proteins, and healthy fats, to get essential nutrients and maintain a healthy weight.</p>
+
+        </div>
+
+        <div class="col-lg-4">
+            <img src="excersize.jpg" height="200px" width="200px" class="rounded-circle">
+            <h2 class="fw-normal">Regular Excercise:</h2>
+            <p>for consistent physical activity, incorporating different types of movement
+                like aerobic activity, strength training, and stretching.</p>
+
+        </div>
+
+        <div class="col-lg-4">
+            <img src="one.jpg" height="200px" width="200px" class="rounded-circle">
+            <h2 class="fw-normal">Better Sleep:</h2>
+            <p>Get enough quality sleep to allow your body to repair itself and to support
+                cognitive function and emotional health.</p>
+
+        </div>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top bg-success">
+        <div class="col-md-4 d-flex align-items-center text-center"> <a href="/"
+                class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
+                    class="bi" width="30" height="24" aria-hidden="true">
+                    <use xlink:href="#bootstrap"></use>
+                </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 HealthConnect, Inc</span> </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24"
+                        height="24" aria-hidden="true">
+                        <use xlink:href="#instagram"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24"
+                        height="24">
+                        <use xlink:href="#facebook"></use>
+                    </svg></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
